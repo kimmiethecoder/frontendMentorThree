@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    font-size: 1rem;
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+}
+
+#advice-button{
+    background-color: hsl(150, 100%, 66%);
+    position: relative;
+    border-radius: .75rem;
+    cursor: pointer;
+}
+
+#advice-button:hover {
+    box-shadow: 0px 0px 105px 45px rgba(45,255,196,0.9);
+}
+
+#dice {
+    padding: .5rem .25rem .25rem .25rem
+}
+
+.vertical-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container {
+    margin: 10rem auto;
+    width: 50%;
+    padding: 5rem;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1rem;
+}
+
+#divider {
+    width: 100%;
+}
+
+.attribution { 
+    font-size: .75rem; 
+    color: white; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 320px) and (max-width: 654px) {
+    .container {
+        width: 100%;
+    }
+}
+
